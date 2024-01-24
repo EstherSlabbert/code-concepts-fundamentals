@@ -24,8 +24,11 @@ In computer science, **data** refers to **information that is meaningful to the 
 
 Programming languages **organize data** into distinct **data types**, and adherence to these types is crucial in many programming languages and in programming logic as various data types may behave differently within the same logic.
 
-**Variables** serve as **containers for storing data** that have an associated label for easy access to the data. To be considered a variable, variables must be declared and then initialized. To be considered a variable, it must be declared and then initialized. This process is sometimes done in a single step; for example, in Python: `int count = 0;`. Declaring a variable is the process of introducing it to the compiler or interpreter, providing information about the variable's name and data type, in Python `int count;`. This step reserves a location in the computer's memory for the variable. Initialization is the subsequent step where you assign an initial value to the declared variable, as seen in Python: `count = 0;`. Until a variable is initialized, its content is considered undefined or garbage.
+**Variables** serve as **containers for storing data** that have an associated label for easy access to the data.
+
+To be considered a variable, it must be declared and then initialized. This process is sometimes done in a single step; for example, in Python: `int count = 0;`. Declaring a variable is the process of introducing it to the compiler or interpreter, providing information about the variable's name and data type, in Python `int count;`. This step reserves a location in the computer's memory for the variable. Initialization is the subsequent step where you assign an initial value to the declared variable, as seen in Python: `count = 0;`. Until a variable is initialized, its content is considered undefined or garbage.
 Until a variable is initialized, its content is considered undefined or garbage.
+
 Essentially, variables enable computers to dynamically store and manipulate data by associating a "label" with the data rather than directly handling the data itself. The nature of what is stored—whether it is the location of other data or the actual value—varies depending on the programming language and data type.
 
 ### Naming conventions
@@ -54,7 +57,7 @@ A solid grasp of syntax ensures that your code is not only readable but also int
 
 In programming, most languages offer a mechanism for incorporating human-readable text that is not considered part of the executable code. These are known as **comments**.
 
-While it is considered a best practice to craft code with self-explanatory and meaningful names, there are instances where comments become necessary to elucidate certain aspects of the code.
+While it is considered a **best practice to craft code with self-explanatory and meaningful names**, there are instances where comments become necessary to elucidate certain aspects of the code.
 
 In rare cases, you may find it beneficial or even essential to include comments for the following purposes:
 
@@ -79,7 +82,7 @@ It is best practice to create functions that do only one thing, if at all possib
 
 Like variables, **functions need to be declared**. Declaring a function involves specifying its name, parameters (if any), and the actions it performs. Functions often use the `return` statement to send a value back to the calling code. This returned value can be stored in a variable for further use.
 
-To **execute a function** and make it perform its defined actions, **you need to call it** with specific arguments, corresponding to the required parameters.
+**To execute a function** and make it perform its defined actions, **you need to call it** with specific arguments, corresponding to the required parameters.
 
 **The difference between parameters and arguments**:
 - Parameters: These are variables in the function declaration that act as placeholders for the values that will be passed into the function.
